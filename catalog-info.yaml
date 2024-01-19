@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "Python Turle"
+  name: "PythonTurtle"
   title: "jupyter notebook"
   description: |
     "demonstarte the autheitcation practices used in node js project"
