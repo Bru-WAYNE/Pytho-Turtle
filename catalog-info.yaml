@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Python Turle"
+  title: "jupyter notebook"
+  description: |
+    "demonstarte the autheitcation practices used in node js project"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Bru-WAYNE/Pytho-Turtle
+    github.com/project-readme-path: README.md
+    backstage.io/view-url: https://github.com/Bru-WAYNE/Pytho-Turtle/blob/main/README.md
+    backstage.io/edit-url: https://github.com/Bru-WAYNE/Pytho-Turtle/edit/main/README.md
+    backstage.io/source-location: url:https://github.com/Bru-WAYNE/Pytho-Turtle
+  tags:
+    - plugin
+    - oss
+    - frontend
+spec:
+  type: service
+  owner: group:open-source
+  lifecycle: production
